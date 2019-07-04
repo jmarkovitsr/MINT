@@ -1,0 +1,19 @@
+3.9191 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+6.1837 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+7.3623 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0A8FA270>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0BB6BED0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.3624 	EXP 	window1: recordFrameIntervals = False
+7.5274 	EXP 	window1: recordFrameIntervals = True
+7.7110 	EXP 	window1: recordFrameIntervals = False
+8.0453 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0524 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+8.1640 	EXP 	text: text = 'Please say in loud voice the name of the following pictures in the language requested\nPress any key to start'
+8.1640 	EXP 	text: autoDraw = True
+12.5753 	DATA 	Keypress: return
+12.6606 	EXP 	Imported conditions.xlsx as conditions, 9 conditions, 1 params
+12.6613 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+12.6618 	EXP 	New trial (rep=0, index=0): OrderedDict([('images', 'images/puerta5.png')])
+12.8014 	EXP 	text: autoDraw = False
+12.8014 	EXP 	image: image = 'images/puerta5.png'
+12.8014 	EXP 	image: autoDraw = True
+14.6574 	DATA 	Keypress: escape
+14.6938 	EXP 	window1: mouseVisible = True
